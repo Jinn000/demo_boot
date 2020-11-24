@@ -30,6 +30,6 @@ public class DemoBootApplication {
     public String startHandler(@RequestParam(value = "answer", defaultValue = "") String answer_data) {
         if(answer_data.isEmpty()) return "Нужно было ввести значение!";
 
-        return answer_data.equalsIgnoreCase("Пустота") ? QSTN_CHAPAY_TEXT.concat(answer_data): FAIL_TEXT;
+        return answer_data.equalsIgnoreCase(mQuiz.getAnswer(QSTN_CHAPAY_TEXT)) ? QSTN_CHAPAY_TEXT.concat(answer_data): FAIL_TEXT;
     }
 }
