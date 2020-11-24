@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>Demo.Homepage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/start" method="GET" id="questionForm">
+    <div>
+        <label for="answerField">Чапаев, и...</label>
+        <input name="answer" id="answerField">
+        <button>SEND</button>
+    </div>
+    <div>
+        <label for="resultField">Результат: </label>
+        <output name="result" id="resultField" value="<?=$_GET['question'];?>"> </output>
+    </div>
+</form>
+</body>
+</html>

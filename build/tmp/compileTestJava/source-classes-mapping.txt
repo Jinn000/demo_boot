@@ -1,0 +1,2 @@
+ru/zav/demo_boot/DemoBootApplicationTests.java
+ ru.zav.demo_boot.DemoBootApplicationTests
