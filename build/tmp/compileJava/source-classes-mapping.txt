@@ -1,8 +1,8 @@
-ru/zav/demo_boot/DefaultQuiz.java
- ru.zav.demo_boot.DefaultQuiz
-ru/zav/demo_boot/Quiz.java
- ru.zav.demo_boot.Quiz
 ru/zav/demo_boot/QuestionController.java
  ru.zav.demo_boot.QuestionController
+ru/zav/demo_boot/Quiz.java
+ ru.zav.demo_boot.Quiz
 ru/zav/demo_boot/DemoBootApplication.java
  ru.zav.demo_boot.DemoBootApplication
+ru/zav/demo_boot/DefaultQuiz.java
+ ru.zav.demo_boot.DefaultQuiz
